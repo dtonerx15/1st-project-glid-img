@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+</head>
+<body>
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+        <!--Logo-->
+        <a href="#" class="navbar-brand">Logo Here</a>
+        <!--Endtask Logo-->
+        <!--Toggle Button-->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar" style="transition: in-ease-out 1s">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        <!--Endtask Toggle Button-->
+        <!--Navbar item/links-->
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a href="#" class="nav-link">Trang chủ</a>
+            </li>
+            <!--Dropdown menu-->
+            <li class="nav-item dropdown">
+                <a href="#" class="nav-link dropdown-toggle" id="navbardrop" data-toggle="dropdown">Danh mục</a>
+                <div class="dropdown-menu">
+                    <a href="dropdown-link" href="#">Danh mục 1</a><br>
+                    <a href="dropdown-link" href="#">Danh mục 2</a><br>
+                    <a href="dropdown-link" href="#">Danh mục 3</a><br>
+                    <a href="dropdown-link" href="#">Danh mục 4</a><br>
+                </div>
+            </li>
+            <!--Endtask Dropdown menu-->
+            <li class="nav-item">
+                <a href="#" class="nav-link">Tin tức</a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link">Liên hệ</a>
+            </li>
+            <!--Margin Right Navbar Element-->
+           
+            <!--Endtask Margin Right Navbar-->
+        </ul>
+        </div>
+        <!--Endtask item/links-->
+    </nav>
+    <!--Endtask Navbar-->
+    <!--Carousel Banner-->
+        <div class="carousel slide border" id="myCarousel" data-ride="carousel" style="width: 100%; padding: 0; border: 0;">
+            <div class="carousel-inner">
+                <div class="carousel-inner active">
+                    <img class="d-block w-100" src="C:/Users/Admin/Desktop/WS/img/cover.gif" alt="cover" style="width: 100%; padding: 0; border: 0;">
+                </div>
+                <!--<div class="carousel-item active">
+                    <img src="https://images.pexels.com/photos/163046/welcome-to-our-home-welcome-tablet-an-array-of-163046.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260" alt="" class="d-block w-100">
+                </div>--> 
+                <!--<div class="carousel-item">
+                    <img src="https://images.pexels.com/photos/2835562/pexels-photo-2835562.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260" alt="" class="d-block w-100">
+                </div>-->      
+        </div>
+    </div>
+    <!--Endtask Carousel-->
+    <!--Jumbotron Homepage-->
+    <div class="jumbotron">
+        <h2>Welcome to my new site</h2>
+        <p>
+            My new site is a blog has any facts, quotes about all the things. Enjoy!
+        </p>
+        <a href="#" class="btn btn-lg btn-primary">Bắt đầu khám phá</a>
+    </div>
+    <!--Endtask Jumbotron-->
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+ </body>
+</html>
+</body>
+</html>
