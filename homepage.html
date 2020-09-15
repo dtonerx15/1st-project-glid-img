@@ -5,6 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Homepage</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <style>
+        body{
+            padding: 0;
+            border: 0;
+        }
+    </style>
 </head>
 <body>
     <!--Navbar-->
@@ -64,14 +70,58 @@
     </div>
     <!--Endtask Carousel-->
     <!--Jumbotron Homepage-->
-    <div class="jumbotron">
+    <div class="jumbotron" style="margin: 0">
         <h2>Welcome to my new site</h2>
         <p>
             My new site is a blog has any facts, quotes about all the things. Enjoy!
         </p>
-        <a href="#" class="btn btn-lg btn-primary">Bắt đầu khám phá</a>
+        <a href="#" class="btn btn-md btn-primary" style="width: 110px;">Đăng ký</a>
+        <a href="#" class="btn btn-md btn-success" style="width: 110px; ">Đăng nhập</a>
     </div>
     <!--Endtask Jumbotron-->
+    <!--Main container-->
+    <div class="container-fluid ">
+        <div class="row ">
+            <div class="col-sm-1 w-100 mh-100" style="background-color: #d3e7ee; ">
+                This is leftside
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Portenta haec esse dicit, neque ea ratione ullo modo posse vivi</p>
+            </div>
+            <div class="col-sm-8 w-100 mh-100" style="background-color: #e4dfd9;">
+                This is container
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Portenta haec esse dicit, neque ea ratione ullo modo posse vivi</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Portenta haec esse dicit, neque ea ratione ullo modo posse vivi. </p>
+              
+            </div>
+            <div class="col-sm-3 w-100 mh-100" style="background-color: #bce6ff;">
+                This is aside
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Portenta haec esse dicit, neque ea ratione ullo modo posse vivi</p>
+            </div>
+        </div>
+    </div>
+    <!--Endtask Main container-->
+    <!--Footer-->
+
+    <footer class="jumbotron bg-dark text-white mw-100 mh-100" style="margin: 0 !important;">
+        <div class="row">
+            <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4"></div>
+            <!--Footer left content-->
+            <div class="col-sm-2 col-md-2 col-lg-2 col-xl-2">
+                Nội dung footer trái
+            </div>
+            <!--Endtask footer left content-->
+            <!--Footer right content-->
+            <div class="col-sm-2 col-md-2 col-lg-2 col-xl-2">
+                Nội dung footer phải
+            </div>
+            <!--Endtask right content-->
+            <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4"></div>
+        </div>
+    </footer>
+    <!--Endtask Footer-->
 
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
